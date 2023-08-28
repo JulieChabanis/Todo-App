@@ -1,18 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
+    "target": "es5", // version dans laquelle TS sera compilée en JS.
+    "lib": ["dom", "dom.iterable", "esnext"], // Bibliotheques dispos pour le code.
+    "allowJs": true, // Inclure fichire JS dans projet.
+    "skipLibCheck": true, // Ignore verification des déclarations de type dans les fichiers de bibliotheques.
+    "strict": true, // Active plusieurs options strictes pour améliorer sécurité et qualité du code.
+    "forceConsistentCasingInFileNames": true, // Respect casse camelCase.
+    "noEmit": true, // Empeche génération fichiers JS lors compilation.
+    "esModuleInterop": true, // interopérabilité des modules ES6 et CommonJS.
+    "module": "esnext", // Module de sortie.
+    "moduleResolution": "bundler", // Résolution de module outils de bundling.
+    "resolveJsonModule": true, // Permet importation fichier JSON Comme modules.
+    "isolatedModules": true, // Traite chaque fichier comme un module indépendant.
+    "jsx": "preserve", // Spécifie comment JSX doit être traité.
     "incremental": true,
     "plugins": [
       {
