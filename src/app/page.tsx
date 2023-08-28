@@ -1,8 +1,10 @@
-import Image from 'next/image'
 import styles from './page.module.css'
+import VideoBackground from './Components/VideoBackground/VideoBackground'
 
 export default function Home() {
   return (
-     <h1 className='text-3xl font-bold'>HelloWorld</h1>
+     <div>
+     < VideoBackground />
+     </div>
   )
 }
