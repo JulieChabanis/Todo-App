@@ -1,10 +1,10 @@
 import styles from './page.module.css'
-import VideoBackground from './Components/VideoBackground/VideoBackground'
+import HeroPage from './Pages/HeroPage'
 
 export default function Home() {
   return (
      <div>
-     < VideoBackground />
+     < HeroPage />
      </div>
   )
 }

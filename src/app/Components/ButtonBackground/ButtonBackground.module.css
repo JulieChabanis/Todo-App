@@ -1,0 +1,18 @@
+.buttonContainer {
+  @apply 
+    fixed 
+    top-0
+    right-0
+    bg-opacity-75 
+    backdrop-blur-lg;
+
+    margin-top: 10rem;
+    margin-right: 10rem; 
+    /* border : 1px solid black; */
+    border-radius : 55px; 
+    padding: 10px 30px 10px 30px;
+}
+
+.iconPng {
+  margin: 20px; 
+}
