@@ -1,15 +1,20 @@
 import React from 'react';
-import styles from './videoBackground.module.css'
 
 const VideoBackground = () => {
   return (
-    <div className="video-container">
+    <div>
       <video
         autoPlay
         loop
         muted
-        className='w-full' 
-        width={4000}
+        style={{
+          objectFit: "cover",
+          width: "100%",
+          height: "100%",
+          position: "fixed",
+          top: 0,
+          left: 0,
+        }}
       >
         <source src="/video/video-background.mp4" type="video/mp4" />
       </video>

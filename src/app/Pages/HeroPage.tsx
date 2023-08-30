@@ -4,7 +4,7 @@ import ButtonBackground from '../Components/ButtonBackground/ButtonBackground'
 
 const HeroPage = () => {
   return (
-    <div className="relative min-h-screen">
+    <div>
     <VideoBackground />
 
     <div>
