@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from './ButtonBackground.module.css'
+import styles from '../../Components/AmbientMusicButtons/AmbientMusicButtons.module.css'; 
 
 import cityIcon from "../../../../public/icons/cityIcon.png";
 import forestIcon from "../../../../public/icons/forestIcon.png";

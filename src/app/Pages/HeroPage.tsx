@@ -1,6 +1,6 @@
 import React from 'react'
 import VideoBackground from '../Components/VideoBackground/VideoBackground'
-import ButtonBackground from '../Components/ButtonBackground/ButtonBackground'
+import AmbientMusicButtons from '../Components/AmbientMusicButtons/AmbientMusicButtons'
 
 const HeroPage = () => {
   return (
@@ -8,7 +8,7 @@ const HeroPage = () => {
     <VideoBackground />
 
     <div>
-      <ButtonBackground />
+      <AmbientMusicButtons />
     </div>
   </div>
   )
